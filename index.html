@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Linkdin OAuth Api</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <img src="Get Your Spotify Info.png" alt="Get Your Spotify Info">
+    <section class="container">
+          <button class="btn btn-default" type="button" name="button"> <a href="https://accounts.spotify.com/authorize?client_id=3b1732bfa7b4492d9038fc23ec72d4db&redirect_uri=http://localhost:8000&scope=user-read-private%20user-read-email&response_type=token&state=123">
+            Click Here
+          </a></button>
+          <button id="apiButton" type="button" name="button">Press</button>
+          <h2 id="email"></h2>
+          <h3 id="version"></h3>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

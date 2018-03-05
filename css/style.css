@@ -1,0 +1,30 @@
+body{
+  background-color: #3B4245;
+  }
+  h1{
+    color: #FFFDD1;
+  }
+  button{
+    background-color: #46541A;
+    border: none;
+    border-radius: 100px;
+  }
+  a{
+    color: #FFFDD1;
+  }
+  img{
+    float: left;
+    margin-left: 5%;
+  }
+  .container{
+    margin-top: 50px;
+    margin-left: 40%;
+    float: left;
+
+  }
+#email{
+  color: #B2B39A;
+}
+ #version{
+   color:#B2B39A;
+ }
